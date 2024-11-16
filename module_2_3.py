@@ -4,6 +4,7 @@ number = 0
 while number < len(my_list):
     if my_list[number] < 0:
         break
-    positive.append(my_list[number])
+    if my_list[number] > 0:
+        positive.append(my_list[number])
     number += 1
 print(*positive, sep='\n')
