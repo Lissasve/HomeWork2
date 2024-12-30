@@ -65,8 +65,6 @@ class Duckbill(Bird, AquaticAnimal, PoisonousAnimal):
         self._DEGREE_OF_DANGER = 8
 
 
-
-
 db = Duckbill(10)
 
 print(db.live)
@@ -83,4 +81,3 @@ db.dive_in(6)
 print(db.get_cords())
 
 print(db.lay_eggs())
-
